@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        transform.position = new Vector3(0, 0, moveSpeed);
         if (Input.GetKeyDown(KeyCode.D))
         {
             StartCoroutine(DelayInputHorizontal(horizontalMovement));

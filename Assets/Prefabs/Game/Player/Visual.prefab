@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3322413157436013646}
   - component: {fileID: 1663729751557123697}
   - component: {fileID: 1841933749705047887}
+  - component: {fileID: 6468371108342724552}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -138,3 +139,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6468371108342724552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5965208306461599952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173f265c1c9cc044c893b66177857840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RSE_ShowLoseMenu: {fileID: 11400000, guid: 124ce81d7f580564c9c3a34cf8e4d261, type: 2}
