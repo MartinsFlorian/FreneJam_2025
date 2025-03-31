@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuContent: {fileID: 7071490471280104557}
   RSE_ShowPauseMenu: {fileID: 11400000, guid: 6c902dc7f8999644c84e570d24a6176b, type: 2}
+  RSE_ShowMainMenu: {fileID: 11400000, guid: 145f0ce193269744c897a831a7d269e4, type: 2}
 --- !u!1001 &297633151534131301
 PrefabInstance:
   m_ObjectHideFlags: 0

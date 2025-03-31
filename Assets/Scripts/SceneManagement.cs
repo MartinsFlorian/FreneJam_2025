@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -29,7 +30,7 @@ public class SceneManagement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.P))
         {
-            RSE_ShowPauseMenu.RaiseEvent(true);
+            StartCoroutine(DelayInputPause());
         }
     }
     private void RestartGame()
@@ -40,5 +41,10 @@ public class SceneManagement : MonoBehaviour
     private void QuitGame()
     {
         Application.Quit();
+    }
+    IEnumerator DelayInputPause()
+    {
+        yield return new WaitForSeconds(1f);
+        RSE_ShowPauseMenu.RaiseEvent(true);
     }
 }
