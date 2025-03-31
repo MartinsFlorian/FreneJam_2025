@@ -46,3 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RSE_QuitGame: {fileID: 11400000, guid: e2f0124df9a20a448b1ccd123638cbc7, type: 2}
   RSE_RestartGame: {fileID: 11400000, guid: d885a6e0b71409b499f8fe5d96d977e0, type: 2}
+  RSE_ShowPauseMenu: {fileID: 11400000, guid: 6c902dc7f8999644c84e570d24a6176b, type: 2}

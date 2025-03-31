@@ -10,6 +10,7 @@ public class SceneManagement : MonoBehaviour
     [Header("RSE")]
     [SerializeField] RSE_QuitGame RSE_QuitGame;
     [SerializeField] RSE_RestartGame RSE_RestartGame;
+    [SerializeField] RSE_ShowPauseMenu RSE_ShowPauseMenu;
 
     //[Header("RSO")]
 
@@ -23,6 +24,13 @@ public class SceneManagement : MonoBehaviour
     {
         RSE_QuitGame.action -= QuitGame;
         RSE_RestartGame.action -= RestartGame;
+    }
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            RSE_ShowPauseMenu.RaiseEvent(true);
+        }
     }
     private void RestartGame()
     {
