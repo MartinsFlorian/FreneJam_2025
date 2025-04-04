@@ -46,7 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loseMenuContent: {fileID: 5266190384377602729}
-  RSE_ShowLoseMenu: {fileID: 11400000, guid: 124ce81d7f580564c9c3a34cf8e4d261, type: 2}
+  scoreText: {fileID: 7431974563849942256}
+  rseShowLoseMenu: {fileID: 11400000, guid: 124ce81d7f580564c9c3a34cf8e4d261, type: 2}
+  rsoPlayerScore: {fileID: 11400000, guid: cbc4fc588b467c54d97bf151b8345a41, type: 2}
 --- !u!1001 &7636968041504409428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -158,3 +160,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2373029459222996477, guid: a79f47a97baebe04e856042769256e0d, type: 3}
   m_PrefabInstance: {fileID: 7636968041504409428}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7431974563849942256 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1069702243929961380, guid: a79f47a97baebe04e856042769256e0d, type: 3}
+  m_PrefabInstance: {fileID: 7636968041504409428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class ShowLose : MonoBehaviour
@@ -6,23 +7,26 @@ public class ShowLose : MonoBehaviour
 
     [Header("References")]
     [SerializeField] GameObject loseMenuContent;
+    [SerializeField] TextMeshProUGUI scoreText;
 
     [Header("RSE")]
-    [SerializeField] RSE_ShowLoseMenu RSE_ShowLoseMenu;
+    [SerializeField] RSE_ShowLoseMenu rseShowLoseMenu;
 
-    //[Header("RSO")]
+    [Header("RSO")]
+    [SerializeField] RSO_PlayerScore rsoPlayerScore;
 
     //[Header("SSO")]
     private void OnEnable()
     {
-        RSE_ShowLoseMenu.action += ShowLoseMenu;
+        rseShowLoseMenu.action += ShowLoseMenu;
     }
     private void OnDisable()
     {
-        RSE_ShowLoseMenu.action -= ShowLoseMenu;
+        rseShowLoseMenu.action -= ShowLoseMenu;
     }
     private void ShowLoseMenu(bool activate)
     {
+        scoreText.text = $"Final Score: {rsoPlayerScore.Value}";
         loseMenuContent.SetActive(activate);
         Time.timeScale = 0f;
     }
