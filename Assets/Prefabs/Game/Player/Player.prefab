@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   horizontalMovement: 2
-  verticalMovement: 2
+  verticalMovement: 3
 --- !u!1001 &2912325589115196581
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float horizontalMovement;
     [SerializeField] float verticalMovement;
-
+    private bool isJumping = false;
     //[Header("References")]
 
     //[Header("RSE")]
@@ -27,8 +27,9 @@ public class PlayerMovement : MonoBehaviour
         {
             StartCoroutine(DelayInputHorizontal(-horizontalMovement));
         }
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) && !isJumping)
         {
+            isJumping = true;
             StartCoroutine(DelayInputVertical(verticalMovement));
         }
     }
@@ -41,5 +42,6 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         transform.position += new Vector3(0, value, 0);
+        isJumping = false;
     }
 }
