@@ -9,6 +9,7 @@ public class CoinProps : MonoBehaviour
 
     [Header("RSE")]
     [SerializeField] RSE_AddScore rseAddSore;
+    [SerializeField] RSE_PlaySound rseCoinSound;
 
     //[Header("RSO")]
 
@@ -18,6 +19,7 @@ public class CoinProps : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            rseCoinSound.RaiseEvent();
             rseAddSore.RaiseEvent(coinScore);
             Destroy(gameObject);
         }

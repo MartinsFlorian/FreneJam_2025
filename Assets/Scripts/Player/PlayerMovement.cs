@@ -11,7 +11,9 @@ public class PlayerMovement : MonoBehaviour
     private bool isJumping = false;
     //[Header("References")]
 
-    //[Header("RSE")]
+    [Header("RSE")]
+    [SerializeField] RSE_PlaySound rsePlayJumpSound;
+    [SerializeField] RSE_PlaySound rsePlaySlideSound;
 
     //[Header("RSO")]
 
@@ -36,11 +38,13 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator DelayInputHorizontal(float value)
     {
         yield return new WaitForSeconds(1f);
+        rsePlaySlideSound.RaiseEvent();
         transform.position += new Vector3(value, 0, 0);
     }
     IEnumerator DelayInputVertical(float value)
     {
         yield return new WaitForSeconds(1f);
+        rsePlayJumpSound.RaiseEvent();
         transform.position += new Vector3(0, value, 0);
         isJumping = false;
     }
