@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d715786c56ad0f4294a0a1564e040b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayScore: 10
+  scoreGainPerSeconds: 5
   rseAddScore: {fileID: 11400000, guid: 682710ec07c810e4381009ae64815d85, type: 2}
   rseUpdateScoreText: {fileID: 11400000, guid: d15778c5308fe5143a9ee5ee3a446612, type: 2}
   rsoPlayerScore: {fileID: 11400000, guid: cbc4fc588b467c54d97bf151b8345a41, type: 2}

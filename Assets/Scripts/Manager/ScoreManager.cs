@@ -1,8 +1,11 @@
+using System.Collections;
 using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    //[Header("Parameters")]
+    [Header("Parameters")]
+    [SerializeField] float delayScore;
+    [SerializeField] int scoreGainPerSeconds;
 
     //[Header("References")]
 
@@ -26,10 +29,17 @@ public class ScoreManager : MonoBehaviour
     private void Start()
     {
         rsoPlayerScore.Value = 0;
+        StartCoroutine(ScorePerSeconds(delayScore, scoreGainPerSeconds));
     }
     private void AddPlayerScore(int value)
     {
         rsoPlayerScore.Value += value;
         rseUpdateScoreText.RaiseEvent();
+    }
+    IEnumerator ScorePerSeconds(float delay, int score)
+    {
+        yield return new WaitForSeconds(delay);
+        rseAddScore.RaiseEvent(score);
+        StartCoroutine(ScorePerSeconds(delay, score));
     }
 }
