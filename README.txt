@@ -7,6 +7,7 @@ Modifiers:
 
 How to play:
 It's a endless Runner with Lag Input. You need to avoid obstacles and collect coins to gain score.
+If you hit a obstacle or a wall you lose.
 Controls: 
 	Q/D to go Left/Right
 	Z to Jump
