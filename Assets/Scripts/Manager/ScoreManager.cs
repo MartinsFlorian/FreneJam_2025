@@ -29,7 +29,7 @@ public class ScoreManager : MonoBehaviour
     }
     private void AddPlayerScore(int value)
     {
-        rsoPlayerScore.Value = value;
+        rsoPlayerScore.Value += value;
         rseUpdateScoreText.RaiseEvent();
     }
 }

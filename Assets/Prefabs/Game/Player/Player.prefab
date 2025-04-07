@@ -49,6 +49,8 @@ MonoBehaviour:
   moveSpeed: 1
   horizontalMovement: 2
   verticalMovement: 3
+  rsePlayJumpSound: {fileID: 11400000, guid: e28faff23738453449b9e8f623f64b29, type: 2}
+  rsePlaySlideSound: {fileID: 11400000, guid: 234352c809254e042b78d540bba30953, type: 2}
 --- !u!1001 &2912325589115196581
 PrefabInstance:
   m_ObjectHideFlags: 0

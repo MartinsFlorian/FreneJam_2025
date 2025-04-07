@@ -50,6 +50,10 @@ MonoBehaviour:
   terrainSpawnPoint: {fileID: 7937280190907093986}
   terrain:
   - {fileID: 2195799921634975787, guid: f7ac89bdabf1cad4a8f6baa2655a025e, type: 3}
+  - {fileID: 2195799921634975787, guid: 7ee5589423295a448bcb51ecd1560acf, type: 3}
+  - {fileID: 2195799921634975787, guid: cd1b37138b941114f9cd8198e3acf420, type: 3}
+  - {fileID: 2195799921634975787, guid: 81fb690a847bea24a97bb6fb3568fb6e, type: 3}
+  - {fileID: 2195799921634975787, guid: 63db2c4c51eaa144daba0be035cb2898, type: 3}
   rseSpawnNewTerrain: {fileID: 11400000, guid: bc18640cd24bf4343ae1e90efb74a3e7, type: 2}
   rsoTerrainMoveSpeed: {fileID: 11400000, guid: b185c38851d89d144985e457f329624c, type: 2}
 --- !u!1001 &2969571076008950545

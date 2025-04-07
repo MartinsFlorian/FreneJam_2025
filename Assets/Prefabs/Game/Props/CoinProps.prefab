@@ -123,3 +123,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinScore: 2
   rseAddSore: {fileID: 11400000, guid: 682710ec07c810e4381009ae64815d85, type: 2}
+  rseCoinSound: {fileID: 11400000, guid: 8c73adf70a881d44587f9db92f22a6a5, type: 2}

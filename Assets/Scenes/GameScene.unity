@@ -118,16 +118,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &1024534646 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9014274166085840371, guid: f14d0229a73cd7a40bfd8a1343f857a5, type: 3}
-  m_PrefabInstance: {fileID: 4585171437977949205}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1133293888 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-  m_PrefabInstance: {fileID: 1164891524}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1149900810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -185,91 +175,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e526fb345375eae4da7a450b4507266f, type: 3}
---- !u!1001 &1164891524
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1024534646}
-    m_Modifications:
-    - target: {fileID: 2195799921634975787, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_Name
-      value: Terrain 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2348426047246981811, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 2348426047246981811, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2841221360548894774, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5075554837183988913, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 5075554837183988913, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013028390650337402, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8903398533405747099, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 8903398533405747099, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 285c4c66b709bfe48881e905b3adaab6, type: 3}
 --- !u!1001 &1332094940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -338,10 +243,6 @@ PrefabInstance:
     - target: {fileID: 690926702058993187, guid: 667d892becbcd024590f316e3f710b9c, type: 3}
       propertyPath: m_Name
       value: MainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 690926702058993187, guid: 667d892becbcd024590f316e3f710b9c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2308276694903546220, guid: 667d892becbcd024590f316e3f710b9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -453,10 +354,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5526630774803699548, guid: f14d0229a73cd7a40bfd8a1343f857a5, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6189035860329134087, guid: f14d0229a73cd7a40bfd8a1343f857a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -502,12 +399,8 @@ PrefabInstance:
       value: Game
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 5853227043444828140, guid: f14d0229a73cd7a40bfd8a1343f857a5, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 9014274166085840371, guid: f14d0229a73cd7a40bfd8a1343f857a5, type: 3}
-      insertIndex: 1
-      addedObject: {fileID: 1133293888}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f14d0229a73cd7a40bfd8a1343f857a5, type: 3}
 --- !u!1001 &6508789598093497494
